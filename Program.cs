@@ -17,7 +17,6 @@ namespace Helllo
             bool d = true;
             char e = '@';
             string f = "This is a String";
-
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
