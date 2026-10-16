@@ -12,12 +12,12 @@ namespace Helllo
     {
         static void Main(string[] args)
         {
-            int a = 3;
-            float b = a;
-            int c = (int)b;
-            Console.WriteLine(a);
-            Console.WriteLine(b);
-            Console.WriteLine(c);
+            //int a = 3;
+            //float b = a;
+            //int c = (int)b;
+            //Console.WriteLine(a);
+            //Console.WriteLine(b);
+            //Console.WriteLine(c);
             //Typecasting is process in which we can convert variables or values into another Data Types.
             //there are two types of typecasting
             //1.Implicit type casting.
@@ -33,6 +33,12 @@ namespace Helllo
             Console.WriteLine(b);
             Console.WriteLine(c);
             */
+
+            Console.WriteLine("Enter Your Name");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hey Hello " + name);
+            Console.ReadLine();
+
         }
     }
 }
