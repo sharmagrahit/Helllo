@@ -24,7 +24,7 @@ namespace Helllo
             //char to int to long to float to double.
 
             //2.Explicit type casting.
-            //A manual Process Where a Progammer forcw thw conversion of one type to another using a cast operator.
+            //A manual Process Where a Progammer force the conversion of one type to another using a cast operator.
             /*
             example ; int a = 3;
             float b = a;
@@ -34,10 +34,18 @@ namespace Helllo
             Console.WriteLine(c);
             */
 
-            Console.WriteLine("Enter Your Name");
-            string name = Console.ReadLine();
-            Console.WriteLine("Hey Hello " + name);
-            Console.ReadLine();
+            //Console.WriteLine("Enter Your Name");
+            //string name = Console.ReadLine();
+            //Console.WriteLine("Your Name is " + name);
+
+            //int x = (int)3.4;
+            //char y = (char)65;
+            //Console.WriteLine(x);
+            //Console.WriteLine(y);
+            //Console.ReadLine();
+
+            double DoubleV = 12.75;
+            int intV = Convert.ToInt32(DoubleV);
 
         }
     }
