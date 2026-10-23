@@ -28,15 +28,15 @@ namespace Helllo
             /*
             example ; int a = 3;
             float b = a;
-            int c = (int)b;
+            int c = (int)b;            
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
             */
 
-            //Console.WriteLine("Enter Your Name");
-            //string name = Console.ReadLine();
-            //Console.WriteLine("Your Name is " + name);
+
+            //double DoubleV = 12.75;
+            //int intV = Convert.ToInt32(DoubleV)
 
             //int x = (int)3.4;
             //char y = (char)65;
@@ -44,9 +44,14 @@ namespace Helllo
             //Console.WriteLine(y);
             //Console.ReadLine();
 
-            double DoubleV = 12.75;
-            int intV = Convert.ToInt32(DoubleV);
+            Console.WriteLine("Enter Your Name");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hey Hello " + name);
 
+            Console.WriteLine("How many candies do you want?");
+            string can = Console.ReadLine();
+            Console.WriteLine("You will get 4 more candies " + can + 4);
+            Console.ReadLine();
         }
     }
 }
