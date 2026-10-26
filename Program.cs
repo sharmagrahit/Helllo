@@ -44,14 +44,30 @@ namespace Helllo
             //Console.WriteLine(y);
             //Console.ReadLine();
 
-            Console.WriteLine("Enter Your Name");
-            string name = Console.ReadLine();
-            Console.WriteLine("Hey Hello " + name);
+            //Function - x
 
-            Console.WriteLine("How many candies do you want?");
+            //Console.WriteLine("What is your name");
+            //string name = Console.ReadLine();
+            //Console.WriteLine("Hi " + name);
+
+            //Console.WriteLine("How many candies do you want");
+            //string can = Console.ReadLine();
+            //Console.WriteLine("Fantastic you will get 4 more candies " + can + 4);
+            //Console.ReadLine();
+
+            //Instead of getting 9 we get 54, to fix function - x , we need to use Typecasting using methods to convert string 'can' to int and also we have to use parameteres to prioritize.
+
+            Console.WriteLine("What is your name");
+            string name = Console.ReadLine(); 
+            Console.WriteLine("Hi " + name);
+
+            Console.WriteLine("How many candies do you want");
             string can = Console.ReadLine();
-            Console.WriteLine("You will get 4 more candies " + can + 4);
+            Console.WriteLine("Fantastic you will get 4 more candies " + (Convert.ToInt32(can) + 4));
             Console.ReadLine();
+            //Now the Output 10 after giving 6 input.
+
+
         }
     }
 }
