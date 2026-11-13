@@ -57,17 +57,67 @@ namespace Helllo
 
             //Instead of getting 9 we get 54, to fix function - x , we need to use Typecasting using methods to convert string 'can' to int and also we have to use parameteres to prioritize.
 
-            Console.WriteLine("What is your name");
-            string name = Console.ReadLine(); 
-            Console.WriteLine("Hi " + name);
+            //Console.WriteLine("What is your name");
+            //string name = Console.ReadLine(); 
+            //Console.WriteLine("Hi " + name);
 
-            Console.WriteLine("How many candies do you want");
-            string can = Console.ReadLine();
-            Console.WriteLine("Fantastic you will get 4 more candies " + (Convert.ToInt32(can) + 4));
-            Console.ReadLine();
+            //Console.WriteLine("How many candies do you want");
+            //string can = Console.ReadLine();
+            //Console.WriteLine("Fantastic you will get 4 more candies " + (Convert.ToInt32(can) + 4));
+            //Console.ReadLine();
             //Now the Output 10 after giving 6 input.
 
+            //Operators
 
+            //1.Arithmetic operator.
+
+            // int b = 2;
+            // int a = 4;
+            // Console.WriteLine("the value of a+b is : " + (a + b));
+            // Console.WriteLine("the value of a-b is : " + (a - b));
+            // Console.WriteLine("the value of a*b is : " + (a * b));
+            // Console.WriteLine("the value of a/b is : " + (a / b));
+            // Console.ReadLine();
+
+            //2.Assignment operator.
+
+            //int a = 4;
+            //int b = a;
+
+            //b += 4;
+            //b -= 4;
+            //b *= 4;
+            //b /= 4;
+
+            //Console.WriteLine(b);
+            //Console.ReadLine();
+
+            // 3. Logical operator
+
+            //Console.WriteLine(true && false);
+            //Console.WriteLine(true && true);
+            //Console.WriteLine(false && false);
+            //Console.ReadLine();
+
+            //Console.WriteLine(true || false);
+            //Console.WriteLine(true || true);
+            //Console.WriteLine(false || false);
+            //Console.ReadLine();
+
+            //Console.WriteLine(!true);
+            //Console.WriteLine(!false);
+            //Console.ReadLine();
+
+            //4.Comparison Operator
+
+            Console.WriteLine(32 > 42);
+            Console.WriteLine(32 < 42);
+            Console.WriteLine(32 >= 42);
+            Console.WriteLine(32 <= 42);
+            Console.WriteLine(32 != 42);
+            Console.WriteLine(32 == 42);
+            Console.WriteLine(32 == 32);
+            Console.ReadLine();
         }
     }
 }
