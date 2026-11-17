@@ -110,14 +110,37 @@ namespace Helllo
 
             //4.Comparison Operator
 
-            Console.WriteLine(32 > 42);
-            Console.WriteLine(32 < 42);
-            Console.WriteLine(32 >= 42);
-            Console.WriteLine(32 <= 42);
-            Console.WriteLine(32 != 42);
-            Console.WriteLine(32 == 42);
-            Console.WriteLine(32 == 32);
-            Console.ReadLine();
+            //Console.WriteLine(32 > 42);
+            //Console.WriteLine(32 < 42);
+            //Console.WriteLine(32 >= 42);
+            //Console.WriteLine(32 <= 42);
+            //Console.WriteLine(32 != 42);
+            //Console.WriteLine(32 == 42);
+            //Console.WriteLine(32 == 32);
+            //Console.ReadLine();
+
+
+
+            //Math classes in c#.
+
+            //1.
+            //int a = Math.Max(31 ,32);
+            //Console.WriteLine(a);
+
+            //2.
+            //int b = Math.Min(31, 32);
+            //Console.WriteLine(b);
+
+            //3.
+            //double c = Math.Sqrt(39);
+            //Console.WriteLine(c);
+            //Console.ReadLine();
+
+            //4.
+            //double d = Math.Abs(-39);
+            //Console.WriteLine(d);
+            //Console.ReadLine();
+
         }
     }
 }
