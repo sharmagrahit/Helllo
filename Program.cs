@@ -141,6 +141,45 @@ namespace Helllo
             //Console.WriteLine(d);
             //Console.ReadLine();
 
+            //Introduction to Strings.
+
+            //string hello = "Hello world this is grahit";
+            //Console.WriteLine(hello.Length);
+            //Console.WriteLine(hello.ToUpper());
+            //Console.WriteLine(hello.ToLower());
+            //Console.ReadLine();
+
+            //string name = Console.ReadLine();
+            //string candies = Console.ReadLine();
+            //Console.WriteLine($"Your name is {name} You will get {candies} candies Enjoy!!!");
+            //Console.ReadLine();
+
+            string hello = "Hello World";
+            Console.WriteLine(hello[0]);
+            Console.WriteLine(hello[1]);
+            Console.WriteLine(hello[2]);
+            Console.WriteLine(hello[3]);
+            Console.WriteLine(hello[4]);
+            Console.WriteLine(hello[5]);
+            Console.WriteLine(hello[6]);
+            Console.WriteLine(hello[7]);
+            Console.WriteLine(hello[8]);
+            Console.WriteLine(hello[9]);
+            Console.WriteLine(hello[10]);
+            Console.ReadLine();
+
+            //OutPut
+            //H
+            //e
+            //l
+            //l
+            //o
+
+            //W
+            //o
+            //r
+            //l
+            //d
         }
     }
 }
