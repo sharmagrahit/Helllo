@@ -10,8 +10,7 @@ namespace Helllo
 {
    class Program
     {
-        static void Main(string[] args)
-        {
+        static void Main(string[] args) {
             //int a = 3;
             //float b = a;
             //int c = (int)b;
@@ -143,30 +142,36 @@ namespace Helllo
 
             //Introduction to Strings.
 
+            //1.
+
             //string hello = "Hello world this is grahit";
             //Console.WriteLine(hello.Length);
             //Console.WriteLine(hello.ToUpper());
             //Console.WriteLine(hello.ToLower());
             //Console.ReadLine();
 
+            //2.
+
             //string name = Console.ReadLine();
             //string candies = Console.ReadLine();
             //Console.WriteLine($"Your name is {name} You will get {candies} candies Enjoy!!!");
             //Console.ReadLine();
 
-            string hello = "Hello World";
-            Console.WriteLine(hello[0]);
-            Console.WriteLine(hello[1]);
-            Console.WriteLine(hello[2]);
-            Console.WriteLine(hello[3]);
-            Console.WriteLine(hello[4]);
-            Console.WriteLine(hello[5]);
-            Console.WriteLine(hello[6]);
-            Console.WriteLine(hello[7]);
-            Console.WriteLine(hello[8]);
-            Console.WriteLine(hello[9]);
-            Console.WriteLine(hello[10]);
-            Console.ReadLine();
+            //3.
+
+            //string hello = "Hello World";
+            //Console.WriteLine(hello[0]);
+            //Console.WriteLine(hello[1]);
+            //Console.WriteLine(hello[2]);
+            //Console.WriteLine(hello[3]);
+            //Console.WriteLine(hello[4]);
+            //Console.WriteLine(hello[5]);
+            //Console.WriteLine(hello[6]);
+            //Console.WriteLine(hello[7]);
+            //Console.WriteLine(hello[8]);
+            //Console.WriteLine(hello[9]);
+            //Console.WriteLine(hello[10]);
+            //Console.ReadLine();
 
             //OutPut
             //H
@@ -180,6 +185,53 @@ namespace Helllo
             //r
             //l
             //d
+
+            //4.
+
+            //string hello = "Hello World This is Grahit";
+
+            //Console.WriteLine(hello.IndexOf("Hello"));
+            //Console.WriteLine(hello.IndexOf("World"));
+            //Console.WriteLine(hello.IndexOf("This"));
+            //Console.WriteLine(hello.IndexOf("is"));
+            //Console.WriteLine(hello.IndexOf("Grahit"));
+            //Console.ReadLine();
+
+            //Output
+            //0
+            //6
+            //12
+            //14
+            //20
+
+            //5.
+
+            //string hello = "Hello World This is Grahit";
+            //Console.WriteLine(hello.Substring(12));
+            //Console.ReadLine();
+
+            //Output
+            //This is Grahit
+
+            //Note :- There are more string method to explore and these string method are just for understanding how we can use string methods.
+
+
+            //Escape sequence characters
+
+            
+            /*
+                 Characters |     Meaning     |      Examples      |      Output
+                            |                 |                    |
+                     \n     |    New line     |  "Hello\nWorld"    |      Hello
+                            |                 |                    |      World
+                            |                 |                    |
+                     \t     |  Horizontal tab |  "Name:\tAlex"     |     Name: Alex
+                            |                 |                    |
+                     \"	    |   Double quote  |  "He said \"Hi\""  |  He said "Hi"
+
+            */
+
+
         }
     }
 }
