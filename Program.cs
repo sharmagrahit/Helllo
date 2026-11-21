@@ -234,18 +234,42 @@ namespace Helllo
             //Console.WriteLine("Raman said \"hi\"");
             //Console.ReadLine();
 
-            int age = 17;
-            if (age > 18)
+
+            
+            Console.WriteLine("Enter your Age");
+            string Age = Console.ReadLine();
+            int age = Convert.ToInt32(Age);
+
+            if (age == 18)
             {
                 Console.WriteLine("You can Drive a car");
                 Console.ReadLine();
-            } 
+            }
+            
+            else if (age < 2)
+            {
+                Console.WriteLine("You are just born");
+                Console.ReadLine();
+            }
+
+            else if (age < 10)
+            {
+                Console.WriteLine("Finish your high school");
+                Console.ReadLine();
+            }
+
+            else if (age < 22)
+            {
+                Console.WriteLine("College age");
+                Console.ReadLine();
+            }
             
             else
             {
                 Console.WriteLine("You cannot Drive the car");
                 Console.ReadLine();
             }
+          
 
         }
     }
