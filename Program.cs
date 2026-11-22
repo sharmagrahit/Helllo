@@ -235,42 +235,89 @@ namespace Helllo
             //Console.ReadLine();
 
 
-            
-            Console.WriteLine("Enter your Age");
-            string Age = Console.ReadLine();
-            int age = Convert.ToInt32(Age);
 
-            if (age == 18)
-            {
-                Console.WriteLine("You can Drive a car");
-                Console.ReadLine();
-            }
-            
-            else if (age < 2)
-            {
-                Console.WriteLine("You are just born");
-                Console.ReadLine();
-            }
+            //Console.WriteLine("Enter your Age");
+            //string Age = Console.ReadLine();
+            //int age = Convert.ToInt32(Age);
 
-            else if (age < 10)
-            {
-                Console.WriteLine("Finish your high school");
-                Console.ReadLine();
-            }
+            //if (age == 18)
+            //{
+            //    Console.WriteLine("You can Drive a car");
+            //    Console.ReadLine();
+            //}
 
-            else if (age < 22)
-            {
-                Console.WriteLine("College age");
-                Console.ReadLine();
-            }
-            
-            else
-            {
-                Console.WriteLine("You cannot Drive the car");
-                Console.ReadLine();
-            }
-          
+            //else if (age < 2)
+            //{
+            //    Console.WriteLine("You are just born");
+            //    Console.ReadLine();
+            //}
 
+            //else if (age < 10)
+            //{
+            //    Console.WriteLine("Finish your high school");
+            //    Console.ReadLine();
+            //}
+
+            //else if (age < 22)
+            //{
+            //    Console.WriteLine("College age");
+            //    Console.ReadLine();
+            //}
+
+            //else
+            //{
+            //    Console.WriteLine("You cannot Drive the car");
+            //    Console.ReadLine();
+
+            Console.WriteLine("Finding memes of year _");
+            string Year = Console.ReadLine();
+            int year = Convert.ToInt32(Year);
+
+            switch (year)
+            {
+                case 2020:
+                    Console.WriteLine("Binod");
+                    Console.ReadLine();
+                    break;
+
+                case 2021:
+                    Console.WriteLine("Gajab Bezzati Ha");
+                    Console.ReadLine();
+                    break;
+
+                case 2022:
+                    Console.WriteLine("Pawri hori hai");
+                    Console.ReadLine();
+                    break;
+
+                case 2023:
+                    Console.WriteLine("Bhupendra Jogi");
+                    Console.ReadLine();
+                    break;
+
+                case 2024:
+                    Console.WriteLine("Elvish Bhai ke aage koi bol sakta hai kya");
+                    Console.ReadLine();
+                    break;
+
+                case 2025:
+                    Console.WriteLine("Chin Tapak Dam Dam");
+                    Console.ReadLine();
+                    break;
+
+                case 2026:
+                    Console.WriteLine("Money follows my brother");
+                    Console.ReadLine();
+                    break;
+
+                default:
+                    Console.WriteLine("Insert only year from 2020 to 2026");
+                    Console.ReadLine();
+                    break;
+
+
+                
+            }
         }
     }
 }
