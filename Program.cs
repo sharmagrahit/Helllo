@@ -269,55 +269,77 @@ namespace Helllo
             //    Console.WriteLine("You cannot Drive the car");
             //    Console.ReadLine();
 
-            Console.WriteLine("Finding memes of year _");
-            string Year = Console.ReadLine();
-            int year = Convert.ToInt32(Year);
+            //Console.WriteLine("Finding memes of year _");
+            //string Year = Console.ReadLine();
+            //int year = Convert.ToInt32(Year);
 
-            switch (year)
-            {
-                case 2020:
-                    Console.WriteLine("Binod");
-                    Console.ReadLine();
-                    break;
+            //switch (year)
+            //{
+            //    case 2020:
+            //        Console.WriteLine("Binod");
+            //        Console.ReadLine();
+            //        break;
 
-                case 2021:
-                    Console.WriteLine("Gajab Bezzati Ha");
-                    Console.ReadLine();
-                    break;
+            //    case 2021:
+            //        Console.WriteLine("Gajab Bezzati Ha");
+            //        Console.ReadLine();
+            //        break;
 
-                case 2022:
-                    Console.WriteLine("Pawri hori hai");
-                    Console.ReadLine();
-                    break;
+            //    case 2022:
+            //        Console.WriteLine("Pawri hori hai");
+            //        Console.ReadLine();
+            //        break;
 
-                case 2023:
-                    Console.WriteLine("Bhupendra Jogi");
-                    Console.ReadLine();
-                    break;
+            //    case 2023:
+            //        Console.WriteLine("Bhupendra Jogi");
+            //        Console.ReadLine();
+            //        break;
 
-                case 2024:
-                    Console.WriteLine("Elvish Bhai ke aage koi bol sakta hai kya");
-                    Console.ReadLine();
-                    break;
+            //    case 2024:
+            //        Console.WriteLine("Elvish Bhai ke aage koi bol sakta hai kya");
+            //        Console.ReadLine();
+            //        break;
 
-                case 2025:
-                    Console.WriteLine("Chin Tapak Dam Dam");
-                    Console.ReadLine();
-                    break;
+            //    case 2025:
+            //        Console.WriteLine("Chin Tapak Dam Dam");
+            //        Console.ReadLine();
+            //        break;
 
-                case 2026:
-                    Console.WriteLine("Money follows my brother");
-                    Console.ReadLine();
-                    break;
+            //    case 2026:
+            //        Console.WriteLine("Money follows my brother");
+            //        Console.ReadLine();
+            //        break;
 
-                default:
-                    Console.WriteLine("Insert only year from 2020 to 2026");
-                    Console.ReadLine();
-                    break;
+            //    default:
+            //        Console.WriteLine("Insert only year from 2020 to 2026");
+            //        Console.ReadLine();
+            //        break;
 
+            //Loops
 
-                
-            }
+            //1.While loop
+
+            //int i = 0;
+            //while (i < 10000)
+            //{
+            //    Console.WriteLine(i+1);
+            //    i++;
+            //}
+
+            //2.Do while loop
+            //int i = 0;
+            //do
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+
+            //} while (i > 5);
+            
+            //for(int i = 0; i < 5; i++)
+            //{
+            //    Console.WriteLine(i+ 1);
+            //    Console.ReadLine();
+            //}
         }
     }
 }
