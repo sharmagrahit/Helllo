@@ -334,12 +334,25 @@ namespace Helllo
             //    i++;
 
             //} while (i > 5);
-            
-            //for(int i = 0; i < 5; i++)
+
+            //for(int i = 0; i > 5; i++)
             //{
-            //    Console.WriteLine(i+ 1);
+            //    Console.WriteLine(i);
             //    Console.ReadLine();
             //}
+
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    if (i == 0)
+            //    {
+            //        continue;
+            //    }
+            //    Console.WriteLine(i);
+            //    break;
+            //}
+
+            //Break- Leave this loop forever.
+            //Continue - Leave this particular iteration of the loop.
         }
     }
 }
