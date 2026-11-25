@@ -335,24 +335,36 @@ namespace Helllo
 
             //} while (i > 5);
 
-            //for(int i = 0; i > 5; i++)
-            //{
-            //    Console.WriteLine(i);
-            //    Console.ReadLine();
-            //}
-
             //for (int i = 0; i < 5; i++)
             //{
-            //    if (i == 0)
+            //    if (i == 2)
+
             //    {
             //        continue;
             //    }
             //    Console.WriteLine(i);
-            //    break;
             //}
 
-            //Break- Leave this loop forever.
-            //Continue - Leave this particular iteration of the loop.
+            //output:
+            //0
+            //1
+            //3
+            //4
+            //5
+
+
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    if (i == 2)
+
+            //    {
+            //        break;
+            //    }
+            //    Console.WriteLine(i);
+            //}
+            //Output:
+            //0
+            //1
         }
     }
 }
